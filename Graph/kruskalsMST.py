@@ -7,7 +7,7 @@ class Graph:
         self.parent = [-1] * (self.V)
         for i in range(self.V):
             self.parent[i] = i
-        self.sz = [0]*(self.V)
+        self.sz = [1]*(self.V)
 
     def addEdge(self, u, v, w):
         self.graph.append([u, v, w])

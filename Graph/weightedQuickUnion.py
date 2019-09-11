@@ -5,7 +5,7 @@ class Graph:
         self.V = vertices
         self.graph = defaultdict(list)
         self.parent = [-1] * (self.V)
-        self.sz = [0]*(self.V)
+        self.sz = [1]*(self.V)
 
     def addEdge(self, u, v):
         self.graph[u].append(v)
