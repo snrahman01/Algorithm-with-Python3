@@ -1,5 +1,5 @@
 # Algorithm-with-Python3
-Implement following algorithm:
+Implementation of following algorithms:
   - BFS
   - DFS
   - Binary Search
